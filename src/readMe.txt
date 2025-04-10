@@ -1,0 +1,26 @@
+The only reason you need to read this file is to test this program.
+Here are a few cards in my Pokemon collection.
+Beep boop.
+Sabrina's Suggestion (Full Art)
+N (Supporter) (Alt Full Art)
+N's Resolve (Full Art)
+Lillie (Full Art)
+Zinnia (Full Art)
+Sylveon V
+Marnie (Full Art)
+Bellelba & Brycen-Man - 194/173 (JP Tag All Stars)
+Silvally GX (Full Art)
+Diantha (Full Art)
+Mimikyu (Secret)
+Sonia (Full Art)
+Steven (Full Art)
+Iono (Full Art Promo)
+Archie's Ace in the Hole (157 Full Art)
+Guzma (Full Art)
+Koga's Trap (Full Art)
+Nessa (Full Art)
+Gladion (Full Art)
+Janine (Full Art)
+Zeraora VSTAR (Galarian Gallery)
+Nanu (Full Art)
+AZ (117 Full Art)
