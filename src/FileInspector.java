@@ -32,7 +32,7 @@ public class FileInspector {
                 do {
                     line = inFile.nextLine();
                     wordCounter = line.split("\\s+");
-                    wordCount += wordCounter.length;
+                    wordCount += wordCounter.size;
                     System.out.println(line); // echos the file text
                     lineCount++;
                 } while (inFile.hasNextLine());
