@@ -16,7 +16,7 @@ public class FileInspector {
         int lineCount = 0;
         int wordCount = 0;
         int characterCount = 0;
-        ArrayList<Object> wordCounter = new ArrayList<>();
+        // ArrayList<Object> wordCounter = new ArrayList<>();
         Path target = new File(System.getProperty("user.dir")).toPath();
         target = target.resolve("src"); // opens in project src folder
         chooser.setCurrentDirectory(target.toFile());
@@ -31,12 +31,15 @@ public class FileInspector {
                 inFile = new Scanner(target); // uses the scanner to analyze each line!
                 do {
                     line = inFile.nextLine();
-                    wordCounter = line.split("\\s+");
-                    wordCount += wordCounter.size;
+                    wordCount += line.split("\\s+").length;
+                    characterCount += line.length();
                     System.out.println(line); // echos the file text
                     lineCount++;
                 } while (inFile.hasNextLine());
                 inFile.close(); // close file
+                System.out.println("Line Count: " + lineCount);
+                System.out.println("Word Count: " + wordCount);
+                System.out.println("Character Count: " + characterCount);
             }
             else   // File chooser closed
             {
