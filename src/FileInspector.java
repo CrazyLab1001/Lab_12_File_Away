@@ -26,7 +26,6 @@ public class FileInspector {
             {
                 selectedFile = chooser.getSelectedFile();
                 fileName = selectedFile.getName();
-                System.out.println("File name: " + fileName);
                 target = chooser.getSelectedFile().toPath();  // File object, not a String filename
                 inFile = new Scanner(target); // uses the scanner to analyze each line!
                 do {
@@ -37,6 +36,8 @@ public class FileInspector {
                     lineCount++;
                 } while (inFile.hasNextLine());
                 inFile.close(); // close file
+                System.out.println();
+                System.out.println("File name: " + fileName);
                 System.out.println("Line Count: " + lineCount);
                 System.out.println("Word Count: " + wordCount);
                 System.out.println("Character Count: " + characterCount);
